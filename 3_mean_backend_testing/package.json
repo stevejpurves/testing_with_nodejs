@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.7.0",
+    "express": "3.4.7",
+    "mongoose": "^3.8.15",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "sinon": "^1.10.3",
+    "supertest": "^0.15.0"
+  }
+}

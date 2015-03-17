@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div.main {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+div.job {
+	border: 1px solid grey;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+};
