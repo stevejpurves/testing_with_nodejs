@@ -1,5 +1,3 @@
-var expect = require('chai').expect
-
 
 var multiplyBy2 = function(x) {
 	return 2*x;
