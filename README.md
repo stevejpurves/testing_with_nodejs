@@ -18,13 +18,16 @@ There are 3 examples:
     
   1 unit tests with mocha
   -----------------------
-  Run `mocha` in the sub directory
+  `cd 1_unit_tests_with_mocha`
+  `mocha`
   
   2 unit tests with karma
   -----------------------
-  Run `karma start` in the sub directory
+  `cd 2_unit_tests_with_karma`
+  `karma start`
   
   3 mean backend testing
   ----------------------
-  Run `mocha test/start.js` in the sub directory
+  `cd 3_mean_backend_testing`
+  `mocha test/start.js`
   
