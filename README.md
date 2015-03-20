@@ -1,5 +1,5 @@
 # Testing with Node.js
-slides and code for betabeers tenerife March 2015
+Slides and code for betabeers tenerife March 2015
 
 There are 3 examples:
 
