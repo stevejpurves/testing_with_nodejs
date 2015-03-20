@@ -4,7 +4,7 @@ slides and code for betabeers tenerife March 2015
 There are 3 examples:
 
  1. using mocha & chai for simple sync and async tests
- 2. using karma to run moha & chai tests in real browsers
+ 2. using karma to run mocha & chai tests in real browsers
  3. backend testing of a simple MEAN stack todo app
  
  Running the examples
