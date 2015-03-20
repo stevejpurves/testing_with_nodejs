@@ -1,4 +1,4 @@
-# testing_with_nodejs
+# Testing with Node.js
 slides and code for betabeers tenerife March 2015
 
 There are 3 examples:
