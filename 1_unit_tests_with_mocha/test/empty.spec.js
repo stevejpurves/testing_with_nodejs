@@ -11,22 +11,28 @@ var dbconnect = function(url, cb) {
 	setTimeout(function() {
 		var err = null
 		return cb(err, {connected: true})
-	}, 2000);
+	}, 3000);
 }
 
 
 describe("Server Unit Tests", function() {
 	
 	describe("a simple test", function() {
-		it("fails", function() {
-			expect(true).to.be.false
+
+		it("2x2 equals 4", function() {
+			expect(multiplyBy2(2)).to.equal(4)
 		});
 	});
 
 	describe("an async test", function() {
-		
-		it.skip("connect to db", function(done) {
+		this.timeout(5000)
 
+		it("very slow aysnc test", function(done) {
+			expect(dbconnect('mydb',function(err, resp) {
+				expect(err).to.be.null
+				expect(resp.connected).to.be.true
+				done()
+			}))
 		})
 	})
 

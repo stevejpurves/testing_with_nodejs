@@ -13,12 +13,16 @@ module.exports = function() {
 			Todo.remove({}, done)
 		})
 
+		function GETJSON(url) {
+			return request(app)
+				.get(url)
+				.expect(200)
+				.expect('Content-Type', /json/)
+		}
+
 		describe("GET /todos", function() {
 			it("returns json with todos", function(done) {
-				request(app)
-					.get('/api/todos')
-					.expect(200)
-					.expect('Content-Type', /json/)
+				GETJSON('/api/todos')
 					.end(function(err, res) {
 						if (err) throw err
 						expect(res.body.todos).to.exist
